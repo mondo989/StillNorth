@@ -51,11 +51,9 @@
 	<header id="head">
 		<div class="container">
 			<div class="row">
-				<h1 class="lead">We are ending the silence.</h1>
-
-	
+					<h1 class="lead">We are ending the silence.</h1>
 			<br>
-				<p class="cred"><a class="btn flat-btn btn-lg" role="button">Contact Us!</a></p>
+				<p class="cred"><a class="btn flat-btn wht btn-lg" role="button">Contact Us!</a></p>
 			</div>
 		</div>
 	</header>
@@ -80,7 +78,10 @@
 
 
 <!-- Codrops circle -->
-<div class="container">
+<div class="container"
+	data-100="opacity: .2; margin-top: -25px;"
+	data-300="opacity: 1; margin-top: 1px;"
+>
 	<div class="row">
 		<div class="col-md-4">
 			<div class="grid">
@@ -241,7 +242,9 @@
 <section class="main">
 	<h1 class="text-center">About Us</h1>
 	<ul class="ch-grid">
-		<li>
+		<li 
+		data-1200="opacity: .1; margin-right: 60px;"
+		data-1700="opacity: 1; margin-right: 45px;">
 			<div class="ch-item ch-img-1">				
 				<div class="ch-info-wrap">
 					<div class="ch-info">
@@ -249,12 +252,15 @@
 						<div class="ch-info-back">
 							<h3>Ben Jaszczak</h3>
 							<p>Sound Designer, Sound Editor </p>
+						<hr>
 						</div>	
 					</div>
 				</div>
 			</div>
 		</li>
-		<li>
+		<li
+		data-1200="opacity: .1; margin-left: 60px;"
+		data-1700="opacity: 1; margin-left: 45px;">
 			<div class="ch-item ch-img-2">
 				<div class="ch-info-wrap">
 					<div class="ch-info">
@@ -284,7 +290,11 @@
 
 
 <div class="jumbotron kevin-photo ">
-<section class="blog box">
+<section class="blog box"
+	data-1800="opacity: 0; margin-top: -50px;"
+	data-2200="opacity: .7; margin-top: 10px;">
+
+
 	<br>
 	<h3 class="text-center">Stay current with what we are up to by checking out our blog:</h3>
 	<div class="row">
@@ -301,18 +311,19 @@
 
 
 	<footer id="footer" class="top-space">
-		
 		<section class="social-media">
 			<br>
-			<h2 class="social text-center">Connect with us!</h2>
+			<h2 class="social text-center"
+				data-1300="opacity: .30; margin-left: 400px;"
+				data-1800="opacity: 1; margin-left: 1px;"
+
+			>Connect with us!</h2>
 				<div class="seperator blue"></div>
 				<div class="social-parent">
 					<div class="social-child fb"></div>
 					<div class="social-child yt"></div>
 					<div class="social-child tw"></div>
 				</div>
-
-
 		</section>
 	
 
@@ -361,5 +372,10 @@
 	<script src="assets/js/headroom.min.js"></script>
 	<script src="assets/js/jQuery.headroom.min.js"></script>
 	<script src="assets/js/template.js"></script>
+	<!-- Skrollr library -->
+	<script type="text/javascript" src="assets/js/skrollr.min.js"></script>
+    	<script type="text/javascript">
+	    var s = skrollr.init();
+	</script>
 </body>
 </html>
