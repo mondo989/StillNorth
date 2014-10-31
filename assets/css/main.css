@@ -190,9 +190,19 @@ h6 {
 	font-size: 18px;
 }
 
-.navbar .navbar-inverse .navbar-fixed-top .headroom .animated {
-	background: #FFF;
+ .navbar-inverse  {
+	background: white;
+	opacity: .5;
 }
+
+.navbar-brand a {
+	color: black;
+	margin-top: 30px;
+}
+
+
+
+.navbar-inve
 
 .cred {
 	margin-top: 30px;
@@ -758,6 +768,8 @@ margin-left: 30px;
 
 .team-cnct {
 	margin-top: 70px;
+	-webkit-border-radius: 12px;
+	        border-radius: 12px;
 }
 
 .medieval {
