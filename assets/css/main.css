@@ -782,6 +782,7 @@ figure.effect-bubba:hover p {
 
 #fade-quote-carousel.carousel .carousel-inner .active {
   opacity: 1;
+  min-height: 120px;
   -webkit-transition-property: opacity;
   -ms-transition-property: opacity;
   transition-property: opacity;
@@ -790,6 +791,7 @@ figure.effect-bubba:hover p {
 #fade-quote-carousel.carousel .carousel-indicators {
   bottom: 10px;
 }
+
 
 #fade-quote-carousel.carousel .carousel-indicators > li {
   background-color: gray;
