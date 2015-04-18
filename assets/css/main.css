@@ -15,6 +15,28 @@
   background: blue;
 }
 
+p.end-silence {
+  display: none;
+  font-size: 22px;
+  width: 80%;
+  margin-bottom: 60px!important;
+  margin: 0 auto;
+}
+
+.font-anim {
+  -webkit-animation: fadeInUp 1s;
+     -moz-animation: fadeInUp 1s;
+       -o-animation: fadeInUp 1s;
+          animation: fadeInUp 1s;
+}
+
+.btn.flat-btn.wht.btn-lg {
+  -webkit-animation: fadeInDown 1s;
+     -moz-animation: fadeInDown 1s;
+       -o-animation: fadeInDown 1s;
+          animation: fadeInDown 1s;
+}
+
 .black.thin {
   color: black;
   margin-bottom: 35px;
@@ -572,6 +594,19 @@ h6 {
 
 .navbar-toggle {
   background: #232323!important;
+}
+
+.silence-seperator {
+  display: none;
+  background: white;
+  height: 1px;
+  opacity: .5;
+  width: 80%;
+  margin: 0 auto;
+  -webkit-animation: rubberBand 2s;
+     -moz-animation: rubberBand 2s;
+       -o-animation: rubberBand 2s;
+          animation: rubberBand 2s;
 }
 
 a.navbar-brand {

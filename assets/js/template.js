@@ -12,3 +12,12 @@ jQuery(document).ready(function($) {
 
 });
 
+
+$( "#learn-more" ).click(function() {
+  
+  $( "#learn-more" ).hide();
+  $( "p.end-silence" ).show();
+  $( ".silence-seperator" ).show();
+  $( "p.end-silence" ).addClass( "font-anim" );
+
+});
