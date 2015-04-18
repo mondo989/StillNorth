@@ -17,7 +17,12 @@ $( "#learn-more" ).click(function() {
   
   $( "#learn-more" ).hide();
   $( "p.end-silence" ).show();
-  $( ".silence-seperator" ).show();
+  $( ".silence-seperator" ).addClass('silence-seperator-anim');
   $( "p.end-silence" ).addClass( "font-anim" );
+
+});
+
+$( "#learn-more" ).click(function() {
+$( ".silence-seperator" ).addClass('silence-seperator-anime');
 
 });
