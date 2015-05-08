@@ -15,7 +15,9 @@
   background: blue;
 }
 
-img.beam {}
+p.project-copy {
+  padding-top: 20px;
+}
 
 p.end-silence {
   display: none;
@@ -51,9 +53,13 @@ animation: fadeInDown 1s;
   width: 400px;
   height: auto;
 }
+/*.circle-img {
+  -webkit-border-radius: 120px!important;
+          border-radius: 120px!important;
+}*/
 .main-img-top-space {
   margin: 0 auto;
-  margin-left: 40px;
+  /*margin-left: 40px;*/
   padding: 3px;
   background: #f3f3f3;
   -webkit-border-radius: 6px;
@@ -83,7 +89,8 @@ animation: fadeInDown 1s;
   margin-top: 20px;
 }
 .download-btn:hover {
-  background: #ccc;
+  background: transparent;
+  border: 2px solid black;
 }
 .download-btn {
   background: black;
@@ -108,6 +115,11 @@ animation: fadeInDown 1s;
   -webkit-border-radius: 8px;
   border-radius: 8px;
   margin-top: 40px;
+}
+
+
+.about-ft {
+  font-size: 19px;
 }
 .no-mg {
   margin-left: 0;
@@ -311,7 +323,8 @@ blockquote {
   display: block;
 }
 .gray-bk {
-  background: #ccc!important;
+  /*background: #ccc!important;*/
+  border: 2px solid #ccc;
   -webkit-border-radius: 12px;
   border-radius: 12px;
 }
@@ -994,13 +1007,14 @@ p.cred {
   margin: 0 auto;
 }
 .ch-img-1 {
-  background-image: url(../images/ben.jpg);
-  background-size: auto 230px;
-  background-position: -10px 10px;
+  background-image: url('../images/ben2.png');
+  background-size: 240px auto;
+  background-position: 30px -32px;
   background-repeat: no-repeat;
+
 }
 .ch-img-2 {
-  background-image: url(../images/brian.jpg);
+  background-image: url('../images/brian.jpg');
   background-size: auto 250px;
   background-position: -10px 10px;
   background-repeat: no-repeat;
