@@ -76,7 +76,7 @@ animation: fadeInDown 1s;
   font-weight: 500;
 }
 .width-80 {
-  width: 80%;
+  width: 85%;
   margin: 0 auto;
 }
 .bottom-mid-font {
@@ -92,6 +92,21 @@ animation: fadeInDown 1s;
   background: transparent;
   border: 2px solid black;
 }
+.fade-up {
+  -webkit-animation: fadeInUp 1.5s;
+     -moz-animation: fadeInUp 1.5s;
+       -o-animation: fadeInUp 1.5s;
+          animation: fadeInUp 1.5s;
+}
+
+.main-anim {
+  -webkit-animation: fadeIn 2s;
+     -moz-animation: fadeIn 2s;
+       -o-animation: fadeIn 2s;
+          animation: fadeIn 2s;
+  
+}
+
 .download-btn {
   background: black;
   font-size: 17px;
@@ -522,6 +537,8 @@ h6 {
 .flat-btn {
   width: 200px;
   border: 2px solid black;
+  -webkit-border-radius: 7px!important;
+          border-radius: 7px!important;
   font-weight: 300;
   text-align: center;
   margin-top: 60px;
@@ -662,7 +679,7 @@ h2.thin {
   color: black;
 }
 .email-btn {
-  margin-top: 10px;
+  margin-top: 25px;
   -webkit-border-radius: 5px;
   border-radius: 5px;
   -webkit-transition: .4s!important;
@@ -1006,6 +1023,10 @@ p.cred {
   background: #FFF;
   margin: 0 auto;
 }
+h2.bebas, h1.bebas {
+  font-size: 40px;
+}
+
 .ch-img-1 {
   background-image: url('../images/ben2.png');
   background-size: 240px auto;
